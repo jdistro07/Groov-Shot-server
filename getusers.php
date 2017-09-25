@@ -8,8 +8,7 @@
 	{
 		while($row = mysqli_fetch_assoc($result))
 		{
-			echo "Username:" . $row['username'] . ";";
-			echo "<br/>";
+			echo $row['username'] . ";";
 		}
 	}
 ?>
